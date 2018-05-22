@@ -390,7 +390,6 @@ img {
 #blog-header {
 	position: relative;
 	padding: 6em 0;
-	text-align: center;
 }
 #blog-header:after {
 	position: absolute;
@@ -403,7 +402,7 @@ img {
 	background: $color-gray-90;
 }
 #blog-header.has-cover {
-	padding: 9em 0 10em;
+	padding: 6em 0 0em;
 	background: $color-black;
 	overflow: hidden;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.1);
@@ -476,16 +475,17 @@ img {
 	color: inherit;
 }
 .blog-description {
+    font-family: 'Fira Sans', sans-serif;
 	position: relative;
 	display: block;
 	z-index: 10;
 	margin: 0.25em 0;
 	padding: 0;
-	font-size: 1em;
-	line-height: 1.5em;
+	font-size: 1.75em;
+	line-height: 1.0em;
 }
 .home-template .blog-description {
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 .has-cover .blog-description {
 	color: $color-white;
@@ -824,7 +824,7 @@ img {
 	position: relative;
 }
 .container .post {
-	padding: 4em 0;
+	padding: 2em 0 0 0;
 }
 .container .post:after {
 	position: absolute;
@@ -876,10 +876,11 @@ img {
 
 #post-header {
 	position: relative;
-	padding-top: 6em;
+	padding-top: 12em;
+    margin-bottom: 4em;
 }
 #post-header.has-cover {
-	padding: 16em 0 2em;
+	padding: 12em 0 0;
 	background: $color-black;
 	overflow: hidden;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.1);
@@ -913,17 +914,29 @@ img {
 	position: relative;
 	z-index: 10;
 	margin: 0 0 0.25em;
-	font-size: 2em;
-	line-height: 1em;
-	font-weight: 700;
 	text-indent: -1px;
 	color: $color-black;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 700;
 }
+
+.post-index-title {
+  position: relative;
+  z-index: 10;
+  margin: 0 0 0.25em;
+  text-indent: -1px;
+  color: $color-black;
+  font-size: 1.25em;
+  line-height: 1em;
+  font-weight: 400;
+}
+
 .has-cover .post-title {
 	color: $color-white;
 }
 .post-title a {
-	text-decoration: none;
+    text-decoration: none;
 	color: inherit;
 	font-weight: inherit;
 }
