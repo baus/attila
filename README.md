@@ -1,6 +1,6 @@
 # Attila
 
-A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/).
+A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/). This fork has been modified for use on [baus.net](https://baus.net).
 
 ## Demo
 
